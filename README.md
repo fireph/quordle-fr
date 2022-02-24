@@ -1,0 +1,2 @@
+# quordle-fr
+Quordle Français
