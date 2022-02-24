@@ -2,11 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Quordle</title>
-    <meta
-      name="description"
-      content="Put your skills to the test and solve four Wordles at once! You have 9 guesses to solve all four words. A new Quordle available each day to solve."
-    />
+    <title>Quordle Français</title>
+    <meta name="description" content="Mettez vos compétences à l&#39;épreuve et résolvez quatre Wordles à la fois ! Vous avez 9 suppositions pour résoudre les quatre mots. Un nouveau Quordle disponible chaque jour à résoudre." />
     <meta
       name="keywords"
       content="Quordle, Dordle, Wordle, word game, puzzle, brain teaser"
@@ -18,27 +15,24 @@
     />
 
     <!-- FB Meta Tags -->
-    <meta property="og:url" content="https://www.quordle.com" />
+    <meta property="og:url" content="fr.quordle.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Quordle" />
-    <meta
-      property="og:description"
-      content="Put your skills to the test and solve four Wordles at once! You have 9 guesses to solve all four words. A new Quordle available each day to solve."
-    />
+    <meta property="og:title" content="Quordle Français" />
+    <meta property="og:description" content="Mettez vos compétences à l&#39;épreuve et résolvez quatre Wordles à la fois ! Vous avez 9 suppositions pour résoudre les quatre mots. Un nouveau Quordle disponible chaque jour à résoudre." />
     <meta
       property="og:image"
-      content="https://www.quordle.com/quordle-banner-1200.png"
+      content="https://fr.quordle.com/quordle-banner-1200-fr.png"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="quordle.com" />
+    <meta property="twitter:domain" content="fr.quordle.com" />
 
     <meta name="theme-color" content="#111827" />
     <meta name="color-scheme" content="dark" />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="manifest-fr.json" />
     <link rel="shortcut icon" sizes="192x192" href="favicon-192.png" />
     <link rel="shortcut icon" sizes="128x128" href="favicon-128.png" />
     <link rel="apple-touch-icon" sizes="128x128" href="favicon-128.png" />
@@ -48,17 +42,25 @@
       href="favicon-128.png"
     />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JE1FCTKHM9"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JE1FCTKHM9"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-JE1FCTKHM9');
+      gtag("config", "G-JE1FCTKHM9");
     </script>
     <script
       src="https://js.sentry-cdn.com/cd8139814dd64a07af2a72fe40bed481.min.js"
@@ -66,18 +68,23 @@
     ></script>
     <script>
       if (!String.prototype.endsWith) {
-        String.prototype.endsWith = function(search, this_len) {
+        String.prototype.endsWith = function (search, this_len) {
           if (this_len === undefined || this_len > this.length) {
             this_len = this.length;
           }
           return this.substring(this_len - search.length, this_len) === search;
         };
       }
-      var quordleInHost = window.location && window.location.host && window.location.host.endsWith("quordle.com")
+      var quordleInHost =
+        window.location &&
+        window.location.host &&
+        window.location.host.endsWith("quordle.com");
       if (window.Sentry) {
-        Sentry.onLoad(function() {
+        Sentry.onLoad(function () {
           Sentry.init({
-            dsn: quordleInHost ? "https://cd8139814dd64a07af2a72fe40bed481@o1140342.ingest.sentry.io/6197424" : null,
+            dsn: quordleInHost
+              ? "https://cd8139814dd64a07af2a72fe40bed481@o1140342.ingest.sentry.io/6197424"
+              : null,
             environment: "prod-fr",
             release: "1.6.4-fr",
             allowUrls: ["quordle.com/assets"],
@@ -94,13 +101,13 @@
               "bannerNight",
               "window.webkit.messageHandlers",
               "jQuery",
-              "isMainframe"
-            ]
+              "isMainframe",
+            ],
           });
         });
       }
     </script>
-    <script type="module" crossorigin src="/assets/index.7d0e7d2b.js"></script>
+    <script type="module" crossorigin src="/assets/index.3ab4cc39.js"></script>
     <link rel="modulepreload" href="/assets/vendor.c387e7a2.js">
     <link rel="stylesheet" href="/assets/index.bad909b6.css">
   </head>
