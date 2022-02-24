@@ -1,6 +1,6 @@
 {
-  "short_name": "Quordle",
-  "name": "Quordle",
+  "short_name": "Quordle Français",
+  "name": "Quordle Français",
   "icons": [
     {
       "src": "favicon-48.png",
@@ -62,5 +62,5 @@
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#111827",
-  "description": "Mettez vos compétences à l'épreuve et résolvez quatre Wordles à la fois ! Vous avez 9 suppositions pour résoudre les quatre mots. Un nouveau Quordle disponible chaque jour à résoudre."
+  "description": "Mettez vos compétences à l'épreuve et résolvez quatre Wordles à la fois\u00a0! Vous avez 9 suppositions pour résoudre les quatre mots. Un nouveau Quordle disponible chaque jour à résoudre."
 }
